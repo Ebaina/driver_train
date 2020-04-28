@@ -1,0 +1,10 @@
+prefix=/usr/local/arm_linux_4.8/usr
+exec_prefix=/usr/local/arm_linux_4.8/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: tslib
+Description: Touchscreen Access Library
+Version: 1.1.0
+Libs: -L${libdir} -lts
+Cflags: -I${includedir}

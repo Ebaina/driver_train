@@ -1,0 +1,9 @@
+prefix='/usr/local/arm_linux_4.8/usr'
+exec_prefix="/usr/local/arm_linux_4.8/usr"
+datarootdir="${prefix}/share"
+datadir="${datarootdir}"
+docdir="${datarootdir}/doc/gettext"
+ACLOCALDIR="${datadir}/aclocal"
+GETTEXTSRCDIR="${datarootdir}/gettext"
+GETTEXTSRCPODIR="${datarootdir}/gettext/po"
+EXAMPLESCONFIGDIR="${datarootdir}/doc/gettext/examples/config"
