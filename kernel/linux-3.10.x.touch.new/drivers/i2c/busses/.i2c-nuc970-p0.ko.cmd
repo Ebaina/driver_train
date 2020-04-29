@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-nuc970-p0.ko := arm-linux-ld -EL -r  -T /home/gcp/nuvoton/nuc970bsp-release-20160510/bsp/linux-3.10.x.ok.new/scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-nuc970-p0.ko drivers/i2c/busses/i2c-nuc970-p0.o drivers/i2c/busses/i2c-nuc970-p0.mod.o

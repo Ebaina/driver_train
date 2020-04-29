@@ -1,0 +1,15 @@
+kernel/net/can/can.ko
+kernel/net/can/can-raw.ko
+kernel/net/can/can-bcm.ko
+kernel/net/can/can-gw.ko
+kernel/net/ipv4/tcp_cubic.ko
+kernel/net/packet/af_packet.ko
+kernel/net/packet/af_packet_diag.ko
+kernel/net/sunrpc/sunrpc.ko
+kernel/net/unix/unix.ko
+kernel/net/unix/unix_diag.ko
+kernel/net/wireless/cfg80211.ko
+kernel/net/wireless/lib80211.ko
+kernel/net/wireless/lib80211_crypt_wep.ko
+kernel/net/wireless/lib80211_crypt_ccmp.ko
+kernel/net/wireless/lib80211_crypt_tkip.ko

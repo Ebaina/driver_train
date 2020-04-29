@@ -1,0 +1,1 @@
+static unsigned char truecolor_logo_data[] = {}; 

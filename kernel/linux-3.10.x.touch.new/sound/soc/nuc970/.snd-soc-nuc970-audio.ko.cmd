@@ -1,0 +1,1 @@
+cmd_sound/soc/nuc970/snd-soc-nuc970-audio.ko := arm-linux-ld -EL -r  -T /home/gcp/nuvoton/nuc970bsp-release-20160510/bsp/linux-3.10.x.ok.new/scripts/module-common.lds --build-id  -o sound/soc/nuc970/snd-soc-nuc970-audio.ko sound/soc/nuc970/snd-soc-nuc970-audio.o sound/soc/nuc970/snd-soc-nuc970-audio.mod.o

@@ -1,0 +1,5 @@
+kernel/fs/configfs/configfs.ko
+kernel/drivers/usb/gadget/libcomposite.ko
+kernel/drivers/usb/gadget/g_mass_storage.ko
+kernel/drivers/i2c/i2c-stub.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko

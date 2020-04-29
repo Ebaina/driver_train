@@ -1,0 +1,33 @@
+config VIDEO_NUC970
+	tristate "Nuvoton NUC970 Video-In Support"
+	depends on I2C && VIDEO_DEV 
+	select VIDEO_BUF
+	select VIDEOBUF_DMA_CONTIG 
+	---help---
+	Support for built-in video-in interface for NUC970.
+
+config MAX_FRAME_BUFFER
+	int "Max frame buffer"
+	depends on VIDEO_NUC970
+	default "3"
+config VIDOE_FREQ
+	int "Video frequency"
+	depends on VIDEO_NUC970
+	default "24000000"
+choice
+	prompt "Nuvoton NUC970 Image Sensor Selection"
+	depends on VIDEO_NUC970
+	default SENSOR_NT99141
+
+config SENSOR_OV7725
+	bool "OV7725"
+
+config SENSOR_OV5640
+	bool "OV5640"
+
+config SENSOR_NT99141
+        bool "NT99141"
+
+config SENSOR_NT99050
+	bool "NT99050"
+endchoice

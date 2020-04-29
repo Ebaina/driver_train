@@ -1,0 +1,5 @@
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/codecs/snd-soc-nau8822.ko
+kernel/sound/soc/nuc970/snd-soc-nuc970-pcm.ko
+kernel/sound/soc/nuc970/nuc970-i2s.ko
+kernel/sound/soc/nuc970/snd-soc-nuc970-audio.ko

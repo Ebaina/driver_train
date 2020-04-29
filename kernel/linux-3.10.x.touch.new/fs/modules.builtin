@@ -1,0 +1,14 @@
+kernel/fs/binfmt_script.ko
+kernel/fs/exportfs/exportfs.ko
+kernel/fs/fat/fat.ko
+kernel/fs/fat/vfat.ko
+kernel/fs/fat/msdos.ko
+kernel/fs/lockd/lockd.ko
+kernel/fs/nfs/nfs.ko
+kernel/fs/nfs/nfsv2.ko
+kernel/fs/nfs/nfsv3.ko
+kernel/fs/nls/nls_base.ko
+kernel/fs/nls/nls_cp437.ko
+kernel/fs/nls/nls_iso8859-1.ko
+kernel/fs/romfs/romfs.ko
+kernel/fs/yaffs2/yaffs.ko

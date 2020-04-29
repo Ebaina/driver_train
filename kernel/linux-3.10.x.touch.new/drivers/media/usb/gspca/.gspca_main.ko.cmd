@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_main.ko := arm-linux-ld -EL -r  -T /home/gcp/nuvoton/nuc970bsp-release-20160510/bsp/linux-3.10.x.ok.new/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_main.ko drivers/media/usb/gspca/gspca_main.o drivers/media/usb/gspca/gspca_main.mod.o

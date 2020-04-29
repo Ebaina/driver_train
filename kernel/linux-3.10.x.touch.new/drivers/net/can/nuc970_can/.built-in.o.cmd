@@ -1,0 +1,1 @@
+cmd_drivers/net/can/nuc970_can/built-in.o :=  arm-linux-ld -EL    -r -o drivers/net/can/nuc970_can/built-in.o drivers/net/can/nuc970_can/nuc970_can.o drivers/net/can/nuc970_can/nuc970_can0_platform.o drivers/net/can/nuc970_can/nuc970_can1_platform.o 
